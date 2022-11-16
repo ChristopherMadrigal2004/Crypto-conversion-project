@@ -45,8 +45,8 @@ To Be Updated
 
 Clone a copy of the repository by going to the repo code and selecting Code. In the drop-down menu, select the method of cloning. To copy directly into the terminal, type `git pull` with the SSH key on the .git file to clone locally.
 
-* HTTPS: `https://github.com/cam1024/Crypto-conversion-project.git`
-* SSH: `git@github.com:cam1024/Crypto-conversion-project.git`
+* HTTPS: `https://github.com/ChristopherMad2004/Crypto-conversion-project.git`
+* SSH: `git@github.com:ChristopherMad2004/Crypto-conversion-project.git`
 
 ## Deployment
 
