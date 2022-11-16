@@ -3,6 +3,16 @@ var title = document.getElementById("title");
 var display = document.getElementById("par");
 var coin1 = document.getElementById('coin-1');
 var coin2 = document.getElementById('coin-2');
+
+    
+        
+          
+    
+
+        
+    
+    @@ -16,29 +11,33 @@ var coin7 = document.getElementById('coin-7');
+  
 var coin3 = document.getElementById('coin-3');
 var coin4 = document.getElementById('coin-4');
 var coin5 = document.getElementById('coin-5');
@@ -41,6 +51,16 @@ cryptoSearch.addEventListener("input", e => {
 fetch('https://api.coinlore.net/api/global/', options)
     .then(response => response.json())
     .then(response => {
+
+    
+        
+          
+    
+
+        
+    
+    @@ -47,38 +46,29 @@ fetch('https://api.coinlore.net/api/global/', options)
+  
         console.log(response);
         p.textContent = 'There are currently ' + response[0].coins_count + ' total Cryptocurrencies.';
         display.append(p)
@@ -72,6 +92,21 @@ fetch('https://api.coinlore.net/api/tickers/', options)
         })
 
         coin2.addEventListener("click", function ()  {
+
+    
+          
+            
+    
+
+          
+          
+            
+    
+
+          
+    
+    @@ -116,6 +106,18 @@ fetch('https://api.coinlore.net/api/tickers/', options)
+  
             title.textContent = data[1].name;
         })
         coin3.addEventListener("click", function ()  {
